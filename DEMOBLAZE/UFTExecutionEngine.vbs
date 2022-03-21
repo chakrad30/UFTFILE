@@ -1,4 +1,4 @@
-testPath = "C:\agent\_work\1\s"
+testPath = "C:\agent\_work\1\s\DEMOBLAZE"
 Dim objFSO
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 DoesFolderExist = objFSO.FolderExists(testPath)
