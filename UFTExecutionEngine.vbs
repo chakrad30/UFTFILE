@@ -1,4 +1,4 @@
-testPath = "C:\Users\Administrator\Desktop\DEMOBLAZE"
+testPath = "C:\Users\Administrator\Desktop\demouftazure\DEMOBLAZE"
 Dim objFSO
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 DoesFolderExist = objFSO.FolderExists(testPath)
@@ -13,7 +13,7 @@ qtApp.Visible = False
 qtApp.Open testPath, False
 Set qtTest = qtApp.Test
 Set qtResultsOpt = CreateObject("QuickTest.RunResultsOptions")
-qtResultsOpt.ResultsLocation = "C:\Azure_Agent\_work\s\Reports"
+qtResultsOpt.ResultsLocation = "C:\Users\Administrator\Desktop\demouftazure\Reports"
 qtTest.Run qtResultsOpt,True
 qtTest.Run
 qtTest.Close
