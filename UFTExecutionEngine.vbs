@@ -1,4 +1,4 @@
-testPath = "C:\Users\Administrator\Desktop\demouftazure\DEMOBLAZE"
+testPath = "C:\Users\Administrator\Desktop\demouftazure\JPETSTORE"
 Dim objFSO
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 DoesFolderExist = objFSO.FolderExists(testPath)
