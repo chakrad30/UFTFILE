@@ -5,7 +5,6 @@ DoesFolderExist = objFSO.FolderExists(testPath)
 Set objFSO = Nothing
 If DoesFolderExist Then
 Dim qtApp
-//chakri
 Dim qtTest
 Dim qtResultsOpt
 Set qtApp = CreateObject("QuickTest.Application")
